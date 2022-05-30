@@ -1,0 +1,241 @@
+body{
+    margin: 0;padding: 0;
+}
+
+#ust2{
+    position: static;
+    left: 0;
+    top:30;
+    width: 110%;
+    height: 85px;
+    background-color: #f6f6f6;
+    color:#9400D3;
+}
+#ust2 #sag{
+    float: right !important;
+    margin-right: 10%;
+    height: 150px;
+    line-height: 40px;
+}
+#ust2 #sag img{vertical-align: middle;}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #f6f6f6;
+    margin-top: -15px;
+}
+nav ul{list-style: none;margin-left: 13%;}
+nav ul li{
+    width: 130px;
+    height: 40px;
+    float: left;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    transition: 0.5s;
+    color:#9400D3;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: aquamarine;
+}
+nav ul li:hover{
+    background-color: #111;
+}
+#orta{
+    text-align: center;
+    
+    background-image: url("resim/banner.jpg");
+    background-size: cover;
+    min-height: 630px;
+    
+}
+#orta #baslik {
+    position: absolute;
+    top:50%;
+    color:#ffffff;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 50pt;
+    text-shadow: 0px 0px 7px rgba(41, 128, 185, 0.4);
+}
+#alt{
+   vertical-align: middle;
+/*display:flex ayarlamalarý*/
+   display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -ms-justify-content:space-around;
+    justify-content:space-around;
+    /*----*/
+    margin-bottom: 5px;
+    height: 300px;
+}
+#alt div{
+    float: left;
+    width:350px;
+    height: 180px;
+}
+#alt div span{
+    color:#333;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16pt;
+}
+#alt div p{
+    margin-left: -1px;
+    color:#FF4500;
+}
+#alt div #git{
+    float: right;
+    margin-top:-20px;
+}
+footer{
+    width:100%;
+    height: 280px;
+    border-top: 1px solid #ccc;
+    /*display:flex ayarlamalarý*/
+   display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -ms-justify-content:space-around;
+    justify-content:space-around;
+    /*----*/
+    background-color: #f6f6f6;
+}
+h2{
+    color:#444;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20pt;
+}
+#copyright{
+    margin-top:-20px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: #f6f6f6;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+}
+#Container .mix{
+    display: none;
+}
+
+
+#hak{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 20pt;
+    color: #FF4500;
+    margin:auto;
+}
+#text{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 15pt;
+    color: #FF4500;
+    text-shadow: 0px 0px 7px rgba(41, 128, 185, 0.4);
+}
+#about img
+{
+    border: 5px solid rgb(255, 176, 59);
+    border-radius: 2px;
+}
+#banner p{
+    font-family: 'PT Sans', sans-serif;
+    color: #fcfcfc;
+    font-size: 34px;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+.heading{
+    font-family: 'Satisfy', sans-serif;
+    color: #FFB03B;
+    font-size: 24px;
+}
+.details-list{
+    margin-top: 20px;
+}
+.details-list ul li i {
+    margin-right: 10px;
+    color: #ffb03b;
+}
+
+#ustKisim {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  margin-right: 830px;
+
+  right: 0px;
+  width: 20px;
+  border: ;
+  padding: 450px;
+}
+
+#icerik {
+  margin: 50px auto 0 auto;
+  width: 10px;
+}
+
+#ildiv{
+   
+    margin-left: 500px;
+    margin-top: 300px;
+    
+}
+
+#R{
+    margin-left: 40px;
+    margin-right: 240px;
+    margin-bottom: 400px;
+    height: 40px;
+    width: 20px;    
+}
+
+#resim{
+    margin-top: -15px;
+}
+#resim1{
+    width: 500px;
+    
+}
+#resim2{
+    
+    margin-left: 700px;
+}
+#resi{
+    margin-left: 700px;
+    
+    width: 500px;
+}
+#menü{
+    margin-bottom: 150px;
+    height: 100px;
+}
+#sol1{
+    
+   
+    margin-left: 10px;
+}
+#orta1{
+    
+   
+    margin-left: 100px;
+}
+#sag1{
+    
+   
+    margin-top: -505px;
+}
+#sag2{
+    
+   
+    margin-top: -605px;
+    margin-right: 120px;
+}
+
